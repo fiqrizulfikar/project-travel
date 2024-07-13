@@ -72,3 +72,42 @@
   nav ul li a:hover {
     text-decoration: underline;
   }
+
+/* pengaturan header */
+header {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -2;
+}
+header .intro {
+  z-index: 100;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+header .intro h3 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+.tombol {
+  background-color: #c86b85;
+  height: 40px;
+  line-height: 42px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+  font-size: 15px;
+  border-radius: 4px;
+}
