@@ -278,7 +278,24 @@ h3 {
   text-align: center;
 }
 
+.lbhlnjt{
+  background-color: #333;
+  box-sizing: border-box;
+  border-radius: 10px;
 
+}
+.lbhlnjt:hover{
+  background-color: red;
+  border-radius: 10px;
+}
+.lbhlnjt a:hover{
+  color: white;
+  border-radius: 15px;
+
+}
+.lbhlnjt a{
+  color: white;
+}
 
 footer {
   background: #333;
@@ -361,7 +378,7 @@ a:hover {
   color: #f18930;
 }
 .bottom-bar {
-  background: #f18930;
+  background: #48f304;
   text-align: center;
   padding: 10px 0;
   margin-top: 50px;
@@ -391,10 +408,10 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #f18930;
+  color: #3cf509;
 }
 .social-icons i:hover {
-  color: #f18930;
+  color: #3af30c;
 }
 
 .grs li {
