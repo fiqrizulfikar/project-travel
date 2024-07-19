@@ -2,7 +2,7 @@
 var tombolMenu = $(".tombol-menu");
 var menu = $("nav .menu ul");
 
-//function klikMenu() {
+function klikMenu() {
     tombolMenu.click(function () {
         menu.toggle();
     });
