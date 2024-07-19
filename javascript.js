@@ -37,12 +37,12 @@ $(document).ready(function () {
         scroll_pos = $(this).scrollTop();
         if (scroll_pos > 0) {
             $("nav").addClass("putih");
-            $("nav img.hitam").show();
-            $("nav img.putih").hide();
+            $("nav img.utama").show();
+            $("nav img.utama").hide();
         } else {
             $("nav").removeClass("putih");
-            $("nav img.hitam").hide();
-            $("nav img.putih").show();
+            $("nav img.utama").hide();
+            $("nav img.utama").show();
         }
     })
 });
