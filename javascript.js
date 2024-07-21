@@ -36,11 +36,11 @@ $(document).ready(function () {
     $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
         if (scroll_pos > 0) {
-            $("nav").addClass("putih");
+            $("nav").addClass("utama");
             $("nav img.utama").show();
             $("nav img.utama").hide();
         } else {
-            $("nav").removeClass("putih");
+            $("nav").removeClass("utama");
             $("nav img.utama").hide();
             $("nav img.utama").show();
         }

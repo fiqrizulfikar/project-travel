@@ -304,6 +304,13 @@ footer {
   width: 100%;
   
 }
+
+
+footer .layar-dalam {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;}
+
 .container {
   width: 1140px;
   margin: auto;
